@@ -1,0 +1,61 @@
+export const books=[{
+    id:1,
+    image:"https://m.media-amazon.com/images/I/51SBqmzeJJL._SX198_BO1,204,203,200_QL40_FMwebp_.jpg",
+    title:"marvel"
+},
+{
+    id:2,
+    image:"https://m.media-amazon.com/images/I/51SBqmzeJJL._SX198_BO1,204,203,200_QL40_FMwebp_.jpg",
+    title:"mar"
+},
+{
+    id:3,
+    image:"https://m.media-amazon.com/images/I/51SBqmzeJJL._SX198_BO1,204,203,200_QL40_FMwebp_.jpg",
+    title:"Aish"
+},
+{
+    id:4,
+    image:"https://m.media-amazon.com/images/I/51SBqmzeJJL._SX198_BO1,204,203,200_QL40_FMwebp_.jpg",
+    title:"evan"
+},
+{
+    id:5,
+    image:"https://m.media-amazon.com/images/I/51SBqmzeJJL._SX198_BO1,204,203,200_QL40_FMwebp_.jpg",
+    title:"mahuya"
+},
+{
+    id:6,
+    image:"https://m.media-amazon.com/images/I/51SBqmzeJJL._SX198_BO1,204,203,200_QL40_FMwebp_.jpg",
+    title:"Aishwariya"
+},
+{
+    id:7,
+    image:"https://m.media-amazon.com/images/I/51SBqmzeJJL._SX198_BO1,204,203,200_QL40_FMwebp_.jpg",
+    title:"marvel"
+},
+{
+    id:8,
+    image:"https://m.media-amazon.com/images/I/51SBqmzeJJL._SX198_BO1,204,203,200_QL40_FMwebp_.jpg",
+    title:"mar"
+},
+{
+    id:9,
+    image:"https://m.media-amazon.com/images/I/51SBqmzeJJL._SX198_BO1,204,203,200_QL40_FMwebp_.jpg",
+    title:"Aish"
+},
+{
+    id:10,
+    image:"https://m.media-amazon.com/images/I/51SBqmzeJJL._SX198_BO1,204,203,200_QL40_FMwebp_.jpg",
+    title:"marvel"
+},
+{
+    id:11,
+    image:"https://m.media-amazon.com/images/I/51SBqmzeJJL._SX198_BO1,204,203,200_QL40_FMwebp_.jpg",
+    title:"mar"
+},
+{
+    id:12,
+    image:"https://m.media-amazon.com/images/I/51SBqmzeJJL._SX198_BO1,204,203,200_QL40_FMwebp_.jpg",
+    title:"Aish"
+},
+]
