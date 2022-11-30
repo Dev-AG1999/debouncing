@@ -7,6 +7,7 @@ function App() {
   const [value, setVlue] = useState("");
   const [filterData, setFilterData] = useState([]);
 
+
   const handleSearch = (e) => {
     setVlue(e.target.value);
   };
@@ -34,8 +35,9 @@ function App() {
           flexDirection: "column",
           justifyContent: "center",
           margin: "auto",
-          backgroundColor: "pink",
-          width: "80%",
+          backgroundColor: "black",
+          alignItems:"center",
+          width: "100%",
         }}
       >
         <input
@@ -45,11 +47,13 @@ function App() {
           }}
           type="text"
           placeholder="Search a book..."
+          style={{width:"20%",outline:"none",
+        margin:"20px 0",padding:"8px",borderRadius:"8px"}}
         />
         {value.length === 0 ? (
           <div
             className="bookContainer"
-            style={{ display: "flex", width: "100%",flexWrap:"wrap",overflow:"scroll", justifyContent:"center"}}
+            style={{ display: "flex", width: "100%",flexWrap:"wrap",overflowY:"scroll", justifyContent:"center"}}
           >
             {books.map((book) => (
               <Book key={book.id} title={book.title} image={book.image} />
@@ -59,14 +63,18 @@ function App() {
           <div
             style={{
               display: "flex",
-              justifyConteunt: "center",
-              alignItems: "center",
               flexDirection: "column",
+              margin: "auto",
+              backgroundColor: "black",
+              alignItems:"center",
+              width: "100%",
+              height:"100vh"
+            
             }}
           >
-            <h2>search result</h2>
+            <h2 style={{color:"white"}}>search result</h2>
             {filterData.map((book) => (
-              <Book key={book.id} image={book.image} title={book.title} />
+              <Book  key={book.id} image={book.image} title={book.title} />
             ))}
           </div>
         )}
