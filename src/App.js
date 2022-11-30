@@ -47,7 +47,7 @@ function App() {
           }}
           type="text"
           placeholder="Search a book..."
-          style={{width:"20%",outline:"none",
+          style={{width:"300px",outline:"none",
         margin:"20px 0",padding:"8px",borderRadius:"8px"}}
         />
         {value.length === 0 ? (
